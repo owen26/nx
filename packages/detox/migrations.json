@@ -68,6 +68,19 @@
           "alwaysAddToPackageJson": false
         }
       }
+    },
+    "13.8.2": {
+      "version": "13.8.2-beta.0",
+      "packages": {
+        "detox": {
+          "version": "19.4.4",
+          "alwaysAddToPackageJson": false
+        },
+        "@testing-library/jest-dom": {
+          "version": "5.16.1",
+          "alwaysAddToPackageJson": false
+        }
+      }
     }
   }
 }
