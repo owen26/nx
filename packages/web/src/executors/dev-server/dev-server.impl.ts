@@ -133,6 +133,7 @@ function resolveCustomWebpackConfig(path: string, tsConfig: string) {
   tsNodeRegister(path, tsConfig);
 
   const customWebpackConfig = require(path);
+  console.log(customWebpackConfig);
   // If the user provides a configuration in TS file
   // then there are 2 cases for exporing an object. The first one is:
   // `module.exports = { ... }`. And the second one is:
